@@ -14,4 +14,8 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000/main](http://localhost:3000/main) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+Click on the "Go to Main page" button to see demo.
+
+Or just go to [http://localhost:3000/main](http://localhost:3000/main)
