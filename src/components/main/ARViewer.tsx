@@ -1,3 +1,4 @@
+"use client"
 // @ts-nocheck
 import React from 'react'
 import { ArToolkitProfile, ArToolkitSource, ArToolkitContext, ArMarkerControls} from '@ar-js-org/ar.js/three.js/build/ar-threex.js';
