@@ -5,7 +5,7 @@ import ContactForm from './ContactForm'
 import AnimatedSection from './AnimatedSection'
 import "../../app/globals.css"
 
-function FirstBlock({ handleARClick }: { handleARClick: () => void }) {
+function FirstBlock() {
 
   return (
     <>
@@ -13,7 +13,7 @@ function FirstBlock({ handleARClick }: { handleARClick: () => void }) {
       <AnimatedSection>
         <div className="w-3/4 h-full">
         <div className="flex justify-start items-center">
-          <ARButton onClick={handleARClick} />
+          <ARButton />
         </div>
           <div className="border-8 border-black flex flex-col items-center w-full h-3/4 rounded-r-lg rounded-b-lg">
             <ModelViewer />
