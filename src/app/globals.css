@@ -25,3 +25,13 @@ body {
     text-wrap: balance;
   }
 }
+
+@media (max-width: 768px) {
+  .adaptive-block {
+      display: flex;
+      flex-direction: column;
+  }
+  .adaptive-subblock {
+    width: 100%;
+  }
+}

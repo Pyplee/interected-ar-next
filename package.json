@@ -9,18 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.15"
+    "@ar-js-org/ar.js": "^3.4.5",
+    "@react-three/drei": "^9.114.3",
+    "@react-three/fiber": "^8.17.10",
+    "aframe": "^1.6.0",
+    "aframe-ar": "^0.2.1-a",
+    "aframe-react": "^4.4.0",
+    "framer-motion": "^11.11.4",
+    "next": "14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-intersection-observer": "^9.13.1",
+    "use-asset": "^1.0.4"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@types/aframe": "^1.2.7",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/three": "^0.169.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.15",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.15"
+    "typescript": "^5"
   }
 }
